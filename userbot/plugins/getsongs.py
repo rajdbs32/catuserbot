@@ -36,12 +36,12 @@ async def _(event):
     reply = await event.get_reply_message()
     if event.pattern_match.group(1):
         query = event.pattern_match.group(1)
-        await event.edit("wi8..! I am finding your song....")
+        await event.edit("wi8..! I am finding your song master Rajdeep ....")
     elif reply.message:
         query = reply.message
-        await event.edit("wi8..! I am finding your song....")
+        await event.edit("wi8..! I am finding your song master Rajdeep ....")
     else:
-    	await event.edit("`What I am Supposed to find `")
+    	await event.edit("`What I am Supposed to find sir? `")
     	return
     try:
         cat = pybase64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
@@ -85,12 +85,12 @@ async def _(event):
     reply = await event.get_reply_message()
     if event.pattern_match.group(1):
         query = event.pattern_match.group(1)
-        await event.edit("wi8..! I am finding your song....")
+        await event.edit("wi8..! I am finding your song master Rajdeep ....")
     elif reply.message:
         query = reply.message
-        await event.edit("wi8..! I am finding your song....")
+        await event.edit("wi8..! I am finding your song master Rajdeep ....")
     else:
-    	await event.edit("`What I am Supposed to find `")
+    	await event.edit("`What I am Supposed to find sir? `")
     	return
     try:
         cat = pybase64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
